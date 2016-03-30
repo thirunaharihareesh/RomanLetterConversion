@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C417DD6E1C8FCDAC00A1F648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417DD6D1C8FCDAC00A1F648 /* AppDelegate.swift */; };
+		C417DD701C8FCDAC00A1F648 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417DD6F1C8FCDAC00A1F648 /* ViewController.swift */; };
+		C417DD731C8FCDAC00A1F648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C417DD711C8FCDAC00A1F648 /* Main.storyboard */; };
+		C417DD751C8FCDAC00A1F648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C417DD741C8FCDAC00A1F648 /* Assets.xcassets */; };
+		C417DD781C8FCDAC00A1F648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C417DD761C8FCDAC00A1F648 /* LaunchScreen.storyboard */; };
+		C417DD831C8FCDAC00A1F648 /* RomanLetterConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417DD821C8FCDAC00A1F648 /* RomanLetterConversionTests.swift */; };
+		C417DD8E1C8FCDAC00A1F648 /* RomanLetterConversionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417DD8D1C8FCDAC00A1F648 /* RomanLetterConversionUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C417DD7F1C8FCDAC00A1F648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C417DD621C8FCDAC00A1F648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C417DD691C8FCDAC00A1F648;
+			remoteInfo = RomanLetterConversion;
+		};
+		C417DD8A1C8FCDAC00A1F648 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C417DD621C8FCDAC00A1F648 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C417DD691C8FCDAC00A1F648;
+			remoteInfo = RomanLetterConversion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C417DD6A1C8FCDAC00A1F648 /* RomanLetterConversion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomanLetterConversion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C417DD6D1C8FCDAC00A1F648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C417DD6F1C8FCDAC00A1F648 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C417DD721C8FCDAC00A1F648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C417DD741C8FCDAC00A1F648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C417DD771C8FCDAC00A1F648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C417DD791C8FCDAC00A1F648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C417DD7E1C8FCDAC00A1F648 /* RomanLetterConversionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanLetterConversionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C417DD821C8FCDAC00A1F648 /* RomanLetterConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanLetterConversionTests.swift; sourceTree = "<group>"; };
+		C417DD841C8FCDAC00A1F648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C417DD891C8FCDAC00A1F648 /* RomanLetterConversionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RomanLetterConversionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C417DD8D1C8FCDAC00A1F648 /* RomanLetterConversionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanLetterConversionUITests.swift; sourceTree = "<group>"; };
+		C417DD8F1C8FCDAC00A1F648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C417DD671C8FCDAC00A1F648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C417DD7B1C8FCDAC00A1F648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C417DD861C8FCDAC00A1F648 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C417DD611C8FCDAC00A1F648 = {
+			isa = PBXGroup;
+			children = (
+				C417DD6C1C8FCDAC00A1F648 /* RomanLetterConversion */,
+				C417DD811C8FCDAC00A1F648 /* RomanLetterConversionTests */,
+				C417DD8C1C8FCDAC00A1F648 /* RomanLetterConversionUITests */,
+				C417DD6B1C8FCDAC00A1F648 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C417DD6B1C8FCDAC00A1F648 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C417DD6A1C8FCDAC00A1F648 /* RomanLetterConversion.app */,
+				C417DD7E1C8FCDAC00A1F648 /* RomanLetterConversionTests.xctest */,
+				C417DD891C8FCDAC00A1F648 /* RomanLetterConversionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C417DD6C1C8FCDAC00A1F648 /* RomanLetterConversion */ = {
+			isa = PBXGroup;
+			children = (
+				C417DD6D1C8FCDAC00A1F648 /* AppDelegate.swift */,
+				C417DD6F1C8FCDAC00A1F648 /* ViewController.swift */,
+				C417DD711C8FCDAC00A1F648 /* Main.storyboard */,
+				C417DD741C8FCDAC00A1F648 /* Assets.xcassets */,
+				C417DD761C8FCDAC00A1F648 /* LaunchScreen.storyboard */,
+				C417DD791C8FCDAC00A1F648 /* Info.plist */,
+			);
+			path = RomanLetterConversion;
+			sourceTree = "<group>";
+		};
+		C417DD811C8FCDAC00A1F648 /* RomanLetterConversionTests */ = {
+			isa = PBXGroup;
+			children = (
+				C417DD821C8FCDAC00A1F648 /* RomanLetterConversionTests.swift */,
+				C417DD841C8FCDAC00A1F648 /* Info.plist */,
+			);
+			path = RomanLetterConversionTests;
+			sourceTree = "<group>";
+		};
+		C417DD8C1C8FCDAC00A1F648 /* RomanLetterConversionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C417DD8D1C8FCDAC00A1F648 /* RomanLetterConversionUITests.swift */,
+				C417DD8F1C8FCDAC00A1F648 /* Info.plist */,
+			);
+			path = RomanLetterConversionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C417DD691C8FCDAC00A1F648 /* RomanLetterConversion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C417DD921C8FCDAC00A1F648 /* Build configuration list for PBXNativeTarget "RomanLetterConversion" */;
+			buildPhases = (
+				C417DD661C8FCDAC00A1F648 /* Sources */,
+				C417DD671C8FCDAC00A1F648 /* Frameworks */,
+				C417DD681C8FCDAC00A1F648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomanLetterConversion;
+			productName = RomanLetterConversion;
+			productReference = C417DD6A1C8FCDAC00A1F648 /* RomanLetterConversion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C417DD7D1C8FCDAC00A1F648 /* RomanLetterConversionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C417DD951C8FCDAC00A1F648 /* Build configuration list for PBXNativeTarget "RomanLetterConversionTests" */;
+			buildPhases = (
+				C417DD7A1C8FCDAC00A1F648 /* Sources */,
+				C417DD7B1C8FCDAC00A1F648 /* Frameworks */,
+				C417DD7C1C8FCDAC00A1F648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C417DD801C8FCDAC00A1F648 /* PBXTargetDependency */,
+			);
+			name = RomanLetterConversionTests;
+			productName = RomanLetterConversionTests;
+			productReference = C417DD7E1C8FCDAC00A1F648 /* RomanLetterConversionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C417DD881C8FCDAC00A1F648 /* RomanLetterConversionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C417DD981C8FCDAC00A1F648 /* Build configuration list for PBXNativeTarget "RomanLetterConversionUITests" */;
+			buildPhases = (
+				C417DD851C8FCDAC00A1F648 /* Sources */,
+				C417DD861C8FCDAC00A1F648 /* Frameworks */,
+				C417DD871C8FCDAC00A1F648 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C417DD8B1C8FCDAC00A1F648 /* PBXTargetDependency */,
+			);
+			name = RomanLetterConversionUITests;
+			productName = RomanLetterConversionUITests;
+			productReference = C417DD891C8FCDAC00A1F648 /* RomanLetterConversionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C417DD621C8FCDAC00A1F648 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Hareesh Thirunahari";
+				TargetAttributes = {
+					C417DD691C8FCDAC00A1F648 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7T76EUA5BX;
+					};
+					C417DD7D1C8FCDAC00A1F648 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7T76EUA5BX;
+						TestTargetID = C417DD691C8FCDAC00A1F648;
+					};
+					C417DD881C8FCDAC00A1F648 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 7T76EUA5BX;
+						TestTargetID = C417DD691C8FCDAC00A1F648;
+					};
+				};
+			};
+			buildConfigurationList = C417DD651C8FCDAC00A1F648 /* Build configuration list for PBXProject "RomanLetterConversion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C417DD611C8FCDAC00A1F648;
+			productRefGroup = C417DD6B1C8FCDAC00A1F648 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C417DD691C8FCDAC00A1F648 /* RomanLetterConversion */,
+				C417DD7D1C8FCDAC00A1F648 /* RomanLetterConversionTests */,
+				C417DD881C8FCDAC00A1F648 /* RomanLetterConversionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C417DD681C8FCDAC00A1F648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C417DD781C8FCDAC00A1F648 /* LaunchScreen.storyboard in Resources */,
+				C417DD751C8FCDAC00A1F648 /* Assets.xcassets in Resources */,
+				C417DD731C8FCDAC00A1F648 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C417DD7C1C8FCDAC00A1F648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C417DD871C8FCDAC00A1F648 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C417DD661C8FCDAC00A1F648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C417DD701C8FCDAC00A1F648 /* ViewController.swift in Sources */,
+				C417DD6E1C8FCDAC00A1F648 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C417DD7A1C8FCDAC00A1F648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C417DD831C8FCDAC00A1F648 /* RomanLetterConversionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C417DD851C8FCDAC00A1F648 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C417DD8E1C8FCDAC00A1F648 /* RomanLetterConversionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C417DD801C8FCDAC00A1F648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C417DD691C8FCDAC00A1F648 /* RomanLetterConversion */;
+			targetProxy = C417DD7F1C8FCDAC00A1F648 /* PBXContainerItemProxy */;
+		};
+		C417DD8B1C8FCDAC00A1F648 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C417DD691C8FCDAC00A1F648 /* RomanLetterConversion */;
+			targetProxy = C417DD8A1C8FCDAC00A1F648 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C417DD711C8FCDAC00A1F648 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C417DD721C8FCDAC00A1F648 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C417DD761C8FCDAC00A1F648 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C417DD771C8FCDAC00A1F648 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C417DD901C8FCDAC00A1F648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C417DD911C8FCDAC00A1F648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C417DD931C8FCDAC00A1F648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = RomanLetterConversion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HareeshApps.RomanLetterConversion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C417DD941C8FCDAC00A1F648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = RomanLetterConversion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HareeshApps.RomanLetterConversion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C417DD961C8FCDAC00A1F648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RomanLetterConversionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HareeshApps.RomanLetterConversionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomanLetterConversion.app/RomanLetterConversion";
+			};
+			name = Debug;
+		};
+		C417DD971C8FCDAC00A1F648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RomanLetterConversionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HareeshApps.RomanLetterConversionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RomanLetterConversion.app/RomanLetterConversion";
+			};
+			name = Release;
+		};
+		C417DD991C8FCDAC00A1F648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RomanLetterConversionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HareeshApps.RomanLetterConversionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RomanLetterConversion;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C417DD9A1C8FCDAC00A1F648 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RomanLetterConversionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = HareeshApps.RomanLetterConversionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RomanLetterConversion;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C417DD651C8FCDAC00A1F648 /* Build configuration list for PBXProject "RomanLetterConversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C417DD901C8FCDAC00A1F648 /* Debug */,
+				C417DD911C8FCDAC00A1F648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C417DD921C8FCDAC00A1F648 /* Build configuration list for PBXNativeTarget "RomanLetterConversion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C417DD931C8FCDAC00A1F648 /* Debug */,
+				C417DD941C8FCDAC00A1F648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C417DD951C8FCDAC00A1F648 /* Build configuration list for PBXNativeTarget "RomanLetterConversionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C417DD961C8FCDAC00A1F648 /* Debug */,
+				C417DD971C8FCDAC00A1F648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C417DD981C8FCDAC00A1F648 /* Build configuration list for PBXNativeTarget "RomanLetterConversionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C417DD991C8FCDAC00A1F648 /* Debug */,
+				C417DD9A1C8FCDAC00A1F648 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C417DD621C8FCDAC00A1F648 /* Project object */;
+}
